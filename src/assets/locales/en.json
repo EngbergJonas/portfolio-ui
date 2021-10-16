@@ -1,0 +1,67 @@
+{
+  "navigation": {
+    "about": "About",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact",
+    "settings": "Settings"
+  },
+
+  "settings": {
+    "languages": "Languages",
+    "en": "English",
+    "fi": "Finnish",
+    "se": "Swedish",
+    "dark": "Dark Mode",
+    "light": "Light Mode",
+    "back": "Back"
+  },
+
+  "greet": {
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening"
+  },
+
+  "title": {
+    "welcome": "Welcome to my website.",
+    "iam": "my name is",
+    "jonas": "Jonas Engberg",
+    "fsdev": "Fullstack Developer",
+    "about": "About Me",
+    "experiences": "Skills & Experiences"
+  },
+
+  "expertise": {
+    "js": "JavaScript",
+    "react": "React",
+    "angular": "Angular",
+    "node": "Node",
+    "html": "Html",
+    "dotnet": ".Net",
+    "java": "Java"
+  },
+
+  "button": {
+    "about": "About Me",
+    "login": "Login",
+    "register": "Register"
+  },
+
+  "paragraphs": {
+    "about": "I'm a Software Developer from Helsinki, Finland. My passion is web development and modern solutions.",
+    "javascript": "<p>My main area of expertise is JavaScript.</p> <p>I've used JavaScript for both back-end and front-end development. From small to medium sized websites and applications.</p> <p>I mainly use JavaScript with modern frameworks like React and Angular, React being my strongest side.</p><p>For BackEnd I've used Express</p>",
+    "html": "<p>HTML is the standard for creating every website and application.</p> <p>I know most there is to know about HTML and I have used it to build complex websites, with short and clean syntax.</p>",
+    "css": "<p>CSS is the second most important part of a web application.</p> <p>I've used CSS to create complex designs and light animations. I've mostly focused on the predecessor Sass and Styled Components with React.</p> <p>This website is built with Styled Components.</p>",
+    "csharp": "<p>I started learning C# in school with the basics of game development. Later on I picked it up when I got into .NET.</p> <p>I've used C# to develop large websites and apps together with ASP.NET MVC in the FrontEnd.</p> <p>For BackEnd development I've used C# with .NET Core together with Azure.</p>",
+    "node": "<p>I've used Node.js for BackEnd Frameworks.</p> <p>These mainly include, Express together with MongoDB.</p>"
+  },
+
+  "exparagraph": {
+    "1": "In 2020 I graduated as an IT Engineer from Arcada, the University of Applied Sciences. During my studies I had gotten a good understanding of programming and software development using technologies like Java, Python and",
+    "2": "My main area of expertise is web development and I have experience of developing small to big websites and apps using modern technologies like",
+    "3": "and",
+    "4": "On the backend side I have experience of",
+    "5": "and"
+  }
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:wght@100;300;400;500;700&display=swap');
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  height: 100%;
+  /*overflow: auto;*/
+  overflow-x: hidden;
+}
+
+/*This is required inside of body to hide overflow-x for menu on mobile devices!*/
+.wrapper {
+  /*overflow: auto;*/
+  overflow-x: hidden;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  height: 0; /* height of horizontal scrollbar ← You're missing this */
+  width: 0; /* width of vertical scrollbar */
+  border: transparent;
+}

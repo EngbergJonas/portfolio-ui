@@ -1,0 +1,56 @@
+{
+  "navigation": {
+    "about": "Om mig",
+    "projects": "Projekt",
+    "resume": "CV",
+    "contact": "Kontakta",
+    "settings": "Inställningar"
+  },
+  "settings": {
+    "languages": "Språk",
+    "en": "Engelska",
+    "fi": "Finska",
+    "se": "Svenska",
+    "dark": "Mörkt Läge",
+    "light": "Ljust Läge",
+    "back": "Tillbaka"
+  },
+  "greet": {
+    "morning": "God Morgon",
+    "afternoon": "God Eftermiddag",
+    "evening": "God Kväll"
+  },
+  "titles": {
+    "frontpage": {
+      "row1": "Välkommen till min websida.",
+      "row2": "Jag heter",
+      "row3": "Jag är en",
+      "name": "Jonas Engberg"
+    },
+    "about": "Om Mig"
+  },
+
+  "expertise": {
+    "js": "JavaScript",
+    "react": "React",
+    "angular": "Angular",
+    "node": "Node",
+    "html": "Html",
+    "dotnet": ".Net",
+    "java": "Java"
+  },
+
+  "variables": {
+    "invent": "Uppfinn",
+    "design": "Designa",
+    "implement": "Genomför"
+  },
+
+  "buttons": {
+    "about": "Om Mig"
+  },
+
+  "paragraphs": {
+    "aboutIntro": "Jag är en Mjukvaru Utvecklare från Helsingfors. Min passion är web utveckling och moderna lösningar."
+  }
+}

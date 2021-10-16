@@ -1,0 +1,61 @@
+{
+  "navigation": {
+    "about": "Minusta",
+    "projects": "Projektit",
+    "resume": "CV",
+    "contact": "Ota Yhteyttä",
+    "settings": "Asetukset"
+  },
+  "settings": {
+    "languages": "Kielet",
+    "en": "Englanniksi",
+    "fi": "Suomeksi",
+    "se": "Ruotsiksi",
+    "dark": "Tumma Teema",
+    "light": "Vaalea Teema",
+    "back": "Takaisin"
+  },
+  "greet": {
+    "morning": "Hyvää Huomenta",
+    "afternoon": "Hyvää Iltapäivää",
+    "evening": "Hyvää Iltaa"
+  },
+  "titles": {
+    "frontpage": {
+      "row1": "Tervetuloa sivuilleni.",
+      "row2": "Nimeni on",
+      "row3": "Olen",
+      "name": "Jonas Engberg"
+    },
+    "about": "Minusta"
+  },
+
+  "expertise": {
+    "js": "JavaScript",
+    "react": "React",
+    "angular": "Angular",
+    "node": "Node",
+    "html": "Html",
+    "dotnet": ".Net",
+    "java": "Java"
+  },
+
+  "variables": {
+    "invent": "Keksi",
+    "design": "Suunnittele",
+    "implement": "Toteuta"
+  },
+
+  "buttons": {
+    "about": "Minusta"
+  },
+
+  "paragraphs": {
+    "aboutIntro": "Olen sovelluskehittäjä Helsingistä. Intohimoni on web kehitys ja modernit ratkaisut",
+    "experiences": "<1> Aloitin urani Arcada, University of Applied Sciences, where I studied for 4 years to become an IT Engineer. During my first years I learned the basics of programming using <2>Java</2>, and the basics of game development using <3>C#</3>. During my third and fourth year we dove deeper into AI learning and data parsing using <4>Python</4> </1> <1> At the end of my fourth year I started to get really interested in web development. I started learning the basics of Javascript and moved deeper into modern frameworks. I also took the FullStack Open course at the University of Helsinki, which after I got a very good understanding of modern frameworks, specifically{' '} <5>React</5>. </1> <1> After a few years of making applications for my own use I got my first development job at CGI. Where I have now worked for 6 months and learned all kind of new frameworks and technologies like{' '} <6>Angular</6> and <7>.NET</8>. </1> ",
+    "java": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <p> Etiam tincidunt arcu ut magna eleifend, in egestaserat egestas. Integer</p><p> placerat ligula ac nisi vulputate, eu semper lectus euismod. Integer ut est at ex feugiat feugiat. In sed gravida lacus. Ut facilisis metus sit amet lectus imperdiet, a vehicula enim mattis. Nunc nec tortor mi. Sed pharetra, quam sed fermentum congue, ante quam ullamcorper est, a elementum erat sem ut nisi. Praesent vehicula nisi nunc, sit amet fermentum dui faucibus quis. Sed placerat diam eget rutrum tempor. Curabitur ac consectetur ligula, quis pulvinar nibh. </p>",
+    "react": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <p> Etiam tincidunt arcu ut magna eleifend, in egestaserat egestas. Integer</p><p> placerat ligula ac nisi vulputate, eu semper lectus euismod. Integer ut est at ex feugiat feugiat. In sed gravida lacus. Ut facilisis metus sit amet lectus imperdiet, a vehicula enim mattis. Nunc nec tortor mi. Sed pharetra, quam sed fermentum congue, ante quam ullamcorper est, a elementum erat sem ut nisi. Praesent vehicula nisi nunc, sit amet fermentum dui faucibus quis. Sed placerat diam eget rutrum tempor. Curabitur ac consectetur ligula, quis pulvinar nibh. </p>",
+    "csharp": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <p> Etiam tincidunt arcu ut magna eleifend, in egestaserat egestas. Integer</p><p> placerat ligula ac nisi vulputate, eu semper lectus euismod. Integer ut est at ex feugiat feugiat. In sed gravida lacus. Ut facilisis metus sit amet lectus imperdiet, a vehicula enim mattis. Nunc nec tortor mi. Sed pharetra, quam sed fermentum congue, ante quam ullamcorper est, a elementum erat sem ut nisi. Praesent vehicula nisi nunc, sit amet fermentum dui faucibus quis. Sed placerat diam eget rutrum tempor. Curabitur ac consectetur ligula, quis pulvinar nibh. </p>",
+    "python": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <p> Etiam tincidunt arcu ut magna eleifend, in egestaserat egestas. Integer</p><p> placerat ligula ac nisi vulputate, eu semper lectus euismod. Integer ut est at ex feugiat feugiat. In sed gravida lacus. Ut facilisis metus sit amet lectus imperdiet, a vehicula enim mattis. Nunc nec tortor mi. Sed pharetra, quam sed fermentum congue, ante quam ullamcorper est, a elementum erat sem ut nisi. Praesent vehicula nisi nunc, sit amet fermentum dui faucibus quis. Sed placerat diam eget rutrum tempor. Curabitur ac consectetur ligula, quis pulvinar nibh. </p>"
+  }
+}
