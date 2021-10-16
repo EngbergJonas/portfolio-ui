@@ -46,21 +46,6 @@ export const Input = styled.input`
   input:focus {
     outline: none;
   }
-  input:-webkit-autofill {
-    width: 100%;
-    height: 40px;
-    font-size: ${(props) => props.theme.fonts.normal.xs};
-    font-family: 'Raleway', sans-serif;
-    color: ${(props) => props.theme.colors.secondaryLight};
-    border: 0;
-    border-bottom: 1px solid ${(props) => props.theme.colors.neutralLight};
-    margin-bottom: 10px;
-    background: none;
-  }
-
-  input:-webkit-autofill:focus {
-    outline: none;
-  }
 `
 
 export const ButtonContainer = styled.div`
