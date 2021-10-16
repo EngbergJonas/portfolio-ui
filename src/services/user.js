@@ -1,6 +1,6 @@
 import axios from '../services/interceptors'
 import { errorService } from './index'
-const baseUrl = '/users'
+const baseUrl = '/api/users'
 
 let token = null
 

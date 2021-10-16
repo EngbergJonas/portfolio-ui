@@ -1,6 +1,6 @@
 import axios from '../services/interceptors'
 import { errorService } from './index'
-const baseUrl = '/login'
+const baseUrl = '/api/login'
 
 const login = async (credentials) =>
   await axios
