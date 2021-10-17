@@ -8,6 +8,8 @@ import { setErrors } from '../../reducers/errorSlice'
 // Services
 import { dark } from '../Shared/Theme'
 
+import './webkitStyles.scss'
+
 // Styles
 import { Wrapper, Page, Title, Form, Paragraph, Container, ButtonContainer, Button, ButtonActive, InputContainer } from './styles'
 

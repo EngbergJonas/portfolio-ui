@@ -20,8 +20,6 @@ export const Container = styled.div`
 
 export const InputContainer = styled.div`
   max-width: 500px;
-  &::-webkit-autofill {
-  }
 `
 
 export const Form = styled.form`

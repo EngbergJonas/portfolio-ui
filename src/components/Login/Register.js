@@ -31,7 +31,7 @@ const Register = () => {
   const user = useSelector((state) => state.user)
 
   const handleNavLogin = (event) => {
-    event.preventDefault() 
+    event.preventDefault()
     return history.push('/login')
   }
 
@@ -68,7 +68,13 @@ const Register = () => {
     store.dispatch(setIsLoading(false))
   }
 
-  const topText = ['Please fill in your information ', <Highlight key={1} yellow>below</Highlight>, '.']
+  const topText = [
+    'Please fill in your information ',
+    <Highlight key={1} yellow>
+      below
+    </Highlight>,
+    '.',
+  ]
 
   return (
     <>
@@ -83,15 +89,12 @@ const Register = () => {
           optionalButtonText={t('button.login')}
           handleOptionalButton={handleNavLogin}
         >
-          
-            <Input placeholder={'Username'} type='text' value={username} onChange={handleUsername} />
-            <Input placeholder={'Password'} type='password' value={password} onChange={handlePassword} />
-            <Input placeholder={'Firstname'} type='text' value={firstname} onChange={handleFirstname} />
-            <Input placeholder={'Lastname'} type='text' value={lastname} onChange={handleLastname} />
-            <Input placeholder={'Email'} type='text' value={email} onChange={handleEmail} />
-            <Input placeholder={'Phone'} type='text' value={phone} onChange={handlePhone} /> 
-                        
-            
+          <Input placeholder={'Username'} type='text' value={username} onChange={handleUsername} />
+          <Input placeholder={'Password'} type='password' value={password} onChange={handlePassword} />
+          <Input placeholder={'Firstname'} type='text' value={firstname} onChange={handleFirstname} />
+          <Input placeholder={'Lastname'} type='text' value={lastname} onChange={handleLastname} />
+          <Input placeholder={'Email'} type='text' value={email} onChange={handleEmail} />
+          <Input placeholder={'Phone'} type='text' value={phone} onChange={handlePhone} />
         </FormWrapper>
       )}
     </>

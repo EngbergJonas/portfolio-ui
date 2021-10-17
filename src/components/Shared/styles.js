@@ -20,7 +20,7 @@ export const Title = styled.h1`
   font-size: ${(p) => p.theme.fonts.large.xs};
   font-weight: ${(p) => p.theme.fonts.weight.thick};
   font-family: 'Permanent Marker', cursive;
-  color: ${(p) => p.theme.colors.secondaryDark};
+  color: ${(p) => (p.yellow ? p.theme.colors.secondaryPale : p.theme.colors.secondaryDark)};
   padding: 0.4rem 0 1rem 0;
   margin: 0;
   @media ${device.greaterThan.tablet} {
