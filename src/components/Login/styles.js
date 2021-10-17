@@ -28,21 +28,21 @@ export const Form = styled.form`
 `
 
 export const Input = styled.input`
-  width: 100%;
-  height: 40px;
-  font-size: ${(props) => props.theme.fonts.normal.xs};
-  font-family: 'Raleway', sans-serif;
-  color: ${(props) => props.theme.colors.secondaryLight};
-  border: 0;
-  border-bottom: 1px solid ${(props) => props.theme.colors.neutralLight};
-  margin-bottom: 10px;
-  background: none;
+  width: 100% !important;
+  height: 40px !important;
+  font-size: ${(props) => props.theme.fonts.normal.xs} !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: ${(props) => props.theme.colors.secondaryLight} !important;
+  border: 0 !important;
+  border-bottom: 1px solid ${(props) => props.theme.colors.neutralLight} !important;
+  margin-bottom: 10px !important;
+  background: none !important;
   &::placeholder {
-    color: ${(props) => props.theme.colors.secondaryLight};
+    color: ${(props) => props.theme.colors.secondaryLight} !important;
   }
   &:focus,
   input:focus {
-    outline: none;
+    outline: none !important;
   }
 `
 

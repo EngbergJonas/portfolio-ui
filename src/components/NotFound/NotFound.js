@@ -14,6 +14,7 @@ import { Wrapper, Page, Title, Container, ButtonActive } from './styles'
 const NotFound = () => {
   const theme = useSelector((state) => state.theme)
   const history = useHistory()
+
   return (
     <Page dark={theme === dark}>
       <Wrapper>

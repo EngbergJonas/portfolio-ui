@@ -37,7 +37,15 @@ const DropdownMenu = () => {
     setMenuHeight(height)
   }
 
-  const handleSetTheme = async () => await store.dispatch(setTheme(theme === dark ? light : dark))
+  const handleSetTheme = async () => {
+    if (theme === dark) {
+      document.documentElement.style.setProperty('--webkit-form-text', '#E98074')
+    } else {
+      document.documentElement.style.setProperty('--webkit-form-text', '#fc0d56')
+    }
+
+    await store.dispatch(setTheme(theme === dark ? light : dark))
+  }
 
   const handleMenuChange = (menu) => menu && setActiveMenu(menu)
 

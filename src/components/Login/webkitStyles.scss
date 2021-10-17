@@ -1,6 +1,11 @@
+:root {
+  --webkit-form-text: #fc0d56;
+}
+
 input:-webkit-autofill,
-input:-webkit-autofill:focus {
-  box-shadow: 0 0 0 50px #1d1d1d inset;
-  -webkit-box-shadow: 0 0 0 50px #1d1d1d inset; /* Change the color to your own background color */
-  -webkit-text-fill-color: #fc0d56;
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: var(--webkit-form-text);
 }
