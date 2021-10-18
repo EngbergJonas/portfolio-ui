@@ -41,14 +41,16 @@ export const Info = styled.div`
   padding: 0 0 4px 0;
   display: block;
   @media ${device.greaterThan.desktop} {
-    font-size: ${(p) => p.theme.fonts.large.lg};
+    font-size: ${(p) => p.theme.fonts.large.s};
   }
 `
 
 export const InfoHighlight = styled.span`
   ${Info};
-  font-size: ${(p) => (p.small ? p.theme.fonts.normal.s : p.theme.fonts.normal.md)};
   color: ${(p) => (p.yellow ? p.theme.colors.secondaryPale : p.theme.colors.secondaryLight)};
+  @media ${device.greaterThan.desktop} {
+    font-size: ${(p) => p.theme.fonts.large.s};
+  }
 `
 
 export const Paragraph = styled.p`

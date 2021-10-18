@@ -18,3 +18,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 `
+
+export const ButtonContainer = styled.div`
+  padding: 1.5rem 0;
+`
